@@ -1,0 +1,3 @@
+class DefaultQuestion < ApplicationRecord
+  
+end
