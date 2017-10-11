@@ -1,24 +1,17 @@
-# README
+# Simple Srvey App API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple survey app API.
 
-Things you may want to cover:
+Make sure to run the ff:
 
-* Ruby version
+```
+rake db:create
+```
+```
+rake db:migrate
+```
+```
+rake db:seed
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rake db:seed` is required to seed initial default questions.
